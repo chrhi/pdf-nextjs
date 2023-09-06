@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="w-full h-[70px] bg-red-500 shadow-lg  container border-b mx-auto flex items-center justify-start">
-          <p className=" text-white  text-xl font-bold  ">Invoice Generater</p>
+          <p className=" text-white  text-xl font-bold  ">PDF Generater</p>
         </div>
         {children}
       </body>
