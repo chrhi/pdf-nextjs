@@ -6,7 +6,7 @@ import { Input } from "../ui/input";
 import { Label } from "../ui/label";
 import { Textarea } from "../ui/textarea";
 
-export const InvoiceForm = () => {
+export const PDFForm = () => {
   const [data, setData] = useState({
     firstName: "",
     lastName: "",
