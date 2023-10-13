@@ -33,7 +33,7 @@ export function SidebarNav({ items, className, ...props }: SidebarNavProps) {
               className={cn(
                 "group flex w-full items-center rounded-md border border-transparent px-2 py-1 hover:bg-muted hover:text-foreground",
                 item.href.includes(String(segment))
-                  ? "bg-muted font-medium text-foreground"
+                  ? "font-medium text-foreground"
                   : "text-muted-foreground",
                 item.disabled && "pointer-events-none opacity-60"
               )}

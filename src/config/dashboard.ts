@@ -13,7 +13,7 @@ export const dashboardConfig: DashboardConfig = {
       items: [],
     },
     {
-      title: "Stores",
+      title: "Business",
       href: "/dashboard/stores",
       icon: "store",
       items: [],

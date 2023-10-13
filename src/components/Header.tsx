@@ -41,7 +41,7 @@ const Navbar = async () => {
                 </Link>
               </>
             ) : (
-              <UserDropDown />
+              <UserDropDown user={user} />
             )}
           </div>
         </div>
