@@ -3,6 +3,7 @@ import MaxWidthWrapper from "./MaxWidthWrapper";
 import { buttonVariants } from "./ui/button";
 
 import { ArrowRight } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 const Navbar = () => {
   return (
@@ -18,7 +19,20 @@ const Navbar = () => {
 
           {/* <MobileNav isAuth={!!user} /> */}
 
-          <div className="hidden items-center space-x-4 sm:flex"></div>
+          <div className="hidden items-center space-x-4 sm:flex">
+            <Link
+              href="/signup"
+              className={cn(buttonVariants({ variant: "secondary" }))}
+            >
+              Create my account
+            </Link>
+            <Link
+              href="/signin"
+              className={cn(buttonVariants({ variant: "default" }))}
+            >
+              Log in
+            </Link>
+          </div>
         </div>
       </MaxWidthWrapper>
     </nav>

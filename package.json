@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^4.25.4",
+    "@hookform/resolvers": "^3.3.2",
     "@prisma/client": "^5.2.0",
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-label": "^2.0.2",
     "@radix-ui/react-slot": "^1.0.2",
+    "@tanstack/react-query": "^4.36.1",
     "@types/node": "20.5.8",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
@@ -23,15 +26,20 @@
     "handlebars": "^4.7.8",
     "lucide-react": "^0.286.0",
     "next": "13.4.19",
+    "next-themes": "^0.2.1",
+    "next13-progressbar": "^1.0.4",
     "postcss": "8.4.29",
     "puppeteer": "^21.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hook-form": "^7.47.0",
+    "sonner": "^1.0.3",
     "tailwind-merge": "^1.14.0",
     "tailwindcss": "3.3.3",
     "tailwindcss-animate": "^1.0.7",
     "typescript": "5.2.2",
-    "uploadthing": "^5.5.2"
+    "uploadthing": "^5.5.2",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/handlebars": "^4.1.0",
